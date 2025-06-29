@@ -21,6 +21,7 @@ provider.on('pending', async (txHash) => {
 🔥 <b>${amount}</b> NSP STAKING CARDS have been minted by <code>${shortWallet}</code>!
 🔗 <a href="https://shibariumscan.io/tx/${tx.hash}">View TX</a>
 🃏 <a href="https://nsp-staking.vercel.app/">Mint Cards!</a>
+🛒 <a href="https://shibaswap.com/swap?outputCurrency=0x6F68a2a8633b6ca3D8d6641F9C1c307e638C0A81">Buy on ShibaSwap!</a>
 🛡️ <a href="https://nsp-staking.vercel.app/stake">Stake Cards!</a>
       `.trim();
 
@@ -55,6 +56,7 @@ bot.command('testNSPmint', async (ctx) => {
 🔥 <b>${testAmount}</b> NSP STAKING CARDS have been minted by <code>${testWallet}</code>!
 🔗 <a href="${testTx}">View TX</a>
 🃏 <a href="https://nsp-staking.vercel.app/">Mint Cards!</a>
+🛒 <a href="https://shibaswap.com/swap?outputCurrency=0x6F68a2a8633b6ca3D8d6641F9C1c307e638C0A81">Buy on ShibaSwap!</a>
 🛡️ <a href="https://nsp-staking.vercel.app/stake">Stake Cards!</a>
   `.trim();
 
