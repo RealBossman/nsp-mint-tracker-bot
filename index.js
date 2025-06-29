@@ -20,6 +20,8 @@ provider.on('pending', async (txHash) => {
       const message = `
 🔥 <b>${amount}</b> NSP STAKING CARDS have been minted by <code>${shortWallet}</code>!
 🔗 <a href="https://shibariumscan.io/tx/${tx.hash}">View TX</a>
+🃏 <a href="https://nsp-staking.vercel.app/">Mint Cards!</a>
+🛡️ <a href="https://nsp-staking.vercel.app/stake">Stake Cards!</a>
       `.trim();
 
       try {
