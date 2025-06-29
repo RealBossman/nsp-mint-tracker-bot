@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RealBossman/nsp-mint-tracker-bot/issues"
   },
-  "homepage": "https://github.com/RealBossman/nsp-mint-tracker-bot#readme"
+  "homepage": "https://github.com/RealBossman/nsp-mint-tracker-bot#readme",
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  }
 }
