@@ -54,6 +54,8 @@ bot.command('testNSPmint', async (ctx) => {
   const message = `
 🔥 <b>${testAmount}</b> NSP STAKING CARDS have been minted by <code>${testWallet}</code>!
 🔗 <a href="${testTx}">View TX</a>
+🃏 <a href="https://nsp-staking.vercel.app/">Mint Cards!</a>
+🛡️ <a href="https://nsp-staking.vercel.app/stake">Stake Cards!</a>
   `.trim();
 
   try {
